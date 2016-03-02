@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carla_pc.beacons_piloto.BeaconsActivity"
+    tools:showIn="@layout/activity_beacons">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:id="@+id/imageView"
+                android:layout_gravity="right"
+                android:src="@drawable/botoneslogos02"
+                android:background="#ffff"/>
+            <Button android:id="@+id/btnLaboratorioDigital"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:text="Laboratorio Digital"
+                android:textAllCaps="false"
+                android:textSize="35px"
+                android:textColor="#EF6825"
+                android:background="#ffff"
+                android:gravity="left|center_vertical">
+            </Button>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:id="@+id/imageView2"
+                android:layout_gravity="right"
+                android:src="@drawable/botoneslogos01"
+                android:background="#ffff"/>
+            <Button android:id="@+id/btnDepartamentoComercial"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:text="Departamento Comercial"
+                android:textAllCaps="false"
+                android:textSize="35px"
+                android:textColor="#EF6825"
+                android:background="#ffff"
+                android:gravity="left|center_vertical">
+            </Button>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:id="@+id/imageView3"
+                android:layout_gravity="right"
+                android:src="@drawable/botoneslogos03"
+                android:background="#ffff"/>
+            <Button android:id="@+id/btnRecursosHumanos"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:text="Recursos Humanos"
+                android:textAllCaps="false"
+                android:textSize="35px"
+                android:textColor="#EF6825"
+                android:background="#ffff"
+                android:gravity="left|center_vertical">
+            </Button>
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:id="@+id/imageView4"
+                android:layout_gravity="right"
+                android:src="@drawable/botoneslogos03"
+                android:background="#ffff"/>
+            <Button android:id="@+id/btnBuscBeacons"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:text="Buscar Beacons"
+                android:textAllCaps="false"
+                android:textSize="35px"
+                android:textColor="#EF6825"
+                android:background="#ffff"
+                android:gravity="left|center_vertical">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
